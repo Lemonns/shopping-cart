@@ -1,0 +1,31 @@
+.cart-container {
+    top: 125px;
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-container {
+    min-height: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin-top: 20px;
+}
+

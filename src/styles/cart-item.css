@@ -1,0 +1,94 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.cart-product-card  {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 170px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.cart-product-card img {
+    width: 200px;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.right-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.quant-add-del {
+    display: flex;
+}
+.quant-add-del input {
+    width: 30px;
+    text-align: center;
+    border: none;
+    background: none;
+    outline: none;
+}
+.title {
+    font-size: 1.4rem;
+}
+
+.price {
+    font-size: 1.3rem;
+}
+
+.quant-add-del {
+    display: flex;
+    border: 1px solid black;
+    width: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quant-add-del p {
+    margin-bottom: 3px;
+}
+
+.quant-add-del button {
+    width: 1.9rem;
+    text-align: center;
+    font-size: 1rem;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: none;
+}
+
+.minus {
+    font-size: 2.1rem;
+}
+
+.minus:hover {
+    color: red;
+}
+
+.plus:hover {
+    color: green;
+}
+
+.delete-btn {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,22 @@
+.home-page {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+.home-page h1 {
+    font-weight: 400;
+    font-size: 7rem;
+    text-align: center;
+    position: fixed;
+    bottom: 54%;
+}
+
+.tile {
+    height: 52%;
+    width: 100%;
+    background-image: url('../images/svg1.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
